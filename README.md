@@ -52,19 +52,19 @@ Scope: The core technical scope centers on an isolated Z-axis impact detection a
 ### 2. Screen Archetypes
 
 * **Stream Screen (HUD / Drive Mode)**
-* *Associated Required Feature:* Automated Impact Detection & Telemetry Logging, Drive HUD / Sensor Dashboard — displays active sensor meters and logs impacts in real time during transit.
+* *Associated Required Feature:* Automated Impact Detection & Telemetry Logging, Drive HUD / Sensor Dashboard — displays active sensor meters and logs impacts in real time during transit. In this menu, you can enable or disable mapping. 
 
 
 * **Detail Screen (Hazard Inspection)**
-* *Associated Required Feature:* Community Hazard Stream — displays detailed sensor telemetry (peak G-force, road type, transit speed), full-resolution photo proof, and community verification history.
+* *Associated Required Feature:* Community Hazard Stream — displays detailed sensor telemetry (peak G-force, road type, transit speed), full-resolution photo proof, and community verification history. We're going to need to create an easy-to-understand score with this information. 
 
 
 * **Map Screen (Roughness & Hazard Heatmap)**
-* *Associated Required Feature:* Surface Roughness Map — renders vector map tiles colored by pavement quality index alongside tappable hazard clusters.
+* *Associated Required Feature:* Surface Roughness Map — A heatmap, with darker colors highlighting more damaged roads.
 
 
 * **Creation Screen (Manual Report / Photo Submission)**
-* *Associated Required Feature:* Threshold-Triggered Camera Capture — allows users to add photos, descriptions, and road notes to an auto-detected impact event. Providing extra context to other users.
+* *Associated Required Feature:* Threshold-Triggered Camera Capture — allows users to add photos, descriptions, and road notes to an auto-detected impact event. Providing extra context to other users. This can apply to roads they or other users have mapped. 
 
 
 * **Profile Screen (User Stats & Gear)**
