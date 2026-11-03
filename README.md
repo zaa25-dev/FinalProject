@@ -23,7 +23,7 @@ vector Maps for road roughness visualization,
 Audio for hands-free hazard proximity warnings, and the 
 Camera for capturing visual proof of road damage.
 
-Story: Commercial navigation tools like Waze require dangerous manual screen taps that vanish after 30 minutes. Current city issue-reporting apps such as SeeClickFix require human input to file reports. 
+Story: Commercial navigation tools like Waze require manual screen taps that vanish after 30 minutes. Current city issue-reporting apps such as SeeClickFix require human input to file reports. 
 PotholeMapper provides hands-free passive sensing, creating an enduring public record of street conditions that can be compiled into municipal 311 repair dossiers to hold local public works departments accountable.
 
 Market: Daily automobile commuters, rideshare and delivery drivers, motorcyclists, cyclists, and municipal civil engineering teams seeking objective pavement condition data.
@@ -64,7 +64,7 @@ Scope: The core technical scope centers on an isolated Z-axis impact detection a
 
 
 * **Creation Screen (Manual Report / Photo Submission)**
-* *Associated Required Feature:* Threshold-Triggered Camera Capture — allows users to add photos, descriptions, and road notes to an auto-detected impact event. Providing extra context to other users. This can apply to roads they or other users have mapped. 
+* *Associated Required Feature:* Camera Capture — allows users to add photos, descriptions, and road notes to an auto-detected impact event. Providing extra context to other users. This can apply to roads they or other users have mapped. 
 
 
 * **Profile Screen (User Stats & Gear)**
