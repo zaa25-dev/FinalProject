@@ -28,8 +28,6 @@ PotholeMapper provides hands-free passive sensing, creating an enduring public r
 
 Market: Daily automobile commuters, rideshare and delivery drivers, motorcyclists, cyclists, and municipal civil engineering teams seeking objective pavement condition data.
 
-Habit: Highly habit-forming dual loop. Drivers run the telemetry logger passively during every commute to log road conditions, and browse the endless "Road Ruin" community stream to review wild potholes, vehicle damage reports, and neighborhood hazard updates.
-
 Scope: The core technical scope centers on an isolated Z-axis impact detection algorithm (`sqrt(x^2 + y^2 + z^2) - 1G`) cross-referenced with GPS speed gating > 15mph to eliminate false positives from phone handling, followed by database synchronization and Mapbox/Google Maps rendering.
 
 ---
@@ -40,25 +38,18 @@ Scope: The core technical scope centers on an isolated Z-axis impact detection a
 
 #### Required Features
 
-Automated Impact Detection & Telemetry Logging: Passively records vertical G-force spikes, timestamp, vehicle transit speed, and exact GPS coordinates when a pothole is struck.
-Surface Roughness Map: Interactive vector map displaying road segments color-coded by road smoothness alongside discrete high-impact hazard pins.
+* **Automated Impact Detection & Telemetry Logging:** Passively records vertical G-force spikes, timestamp, vehicle transit speed, and exact GPS coordinates when a pothole is struck.
+* **Surface Roughness Map:** Interactive vector map displaying road segments color-coded by road smoothness alongside discrete high-impact hazard pins.
 * **Drive HUD / Sensor Dashboard:** Live real-time dashboard displaying current transit speed, live G-meter accelerometer deflection, and trip logging controls.
 
 #### Optional Features
 
-Camera Capture: Those who want can snap a picture of the road to share how the road looks in reality. 
-Auditory Proximity Alerts: Spoken audio warning chime when approaching a verified high-impact hazard cluster within 200 feet.
-Municipal 311 Export: One-tap export compiling recurring local hazard clusters into an official PDF/CSV report for local Department of Public Works departments.
-
-(This feature maybe no. Because the idea is to get local Public Works department to use the app and see where they should focus. 
+* **Camera Capture:** Those who want can snap a picture of the road to share how the road looks in reality. 
+* **Auditory Proximity Alerts:** Spoken audio warning chime when approaching a verified high-impact hazard cluster within 200 feet.
 
 ---
 
 ### 2. Screen Archetypes
-
-* **Stream Screen (Community Feed)**
-* *Associated Required Feature:* Community Hazard Stream — users can scroll through an endless feed of reported road damage, view impact telemetry badges, and upvote/confirm active hazards.
-
 
 * **Stream Screen (HUD / Drive Mode)**
 * *Associated Required Feature:* Automated Impact Detection & Telemetry Logging, Drive HUD / Sensor Dashboard — displays active sensor meters and logs impacts in real time during transit.
@@ -73,11 +64,11 @@ Municipal 311 Export: One-tap export compiling recurring local hazard clusters i
 
 
 * **Creation Screen (Manual Report / Photo Submission)**
-* *Associated Required Feature:* Threshold-Triggered Camera Capture — allows users to add photos, descriptions, and road notes to an auto-detected impact event.
+* *Associated Required Feature:* Threshold-Triggered Camera Capture — allows users to add photos, descriptions, and road notes to an auto-detected impact event. Providing extra context to other users.
 
 
 * **Profile Screen (User Stats & Gear)**
-* *Associated Required Feature:* Drive HUD / Sensor Dashboard — displays user's total audited miles, detected pothole count, community karma score, and vehicle profile.
+* *Associated Required Feature:* Drive HUD / Sensor Dashboard — displays user's total audited miles, detected pothole/uneven road count, community karma score, and vehicle profile.
 
 
 
@@ -125,14 +116,7 @@ Municipal 311 Export: One-tap export compiling recurring local hazard clusters i
 *(Embed your photographed wireframe sketches below using your GitHub relative repository path)*
 
 ```markdown
-![RoadVibe Low-Fidelity Wireframes](wireframes/wireframe_sketches.png)
 
 ```
 
 ---
-
-### Verification and Execution Steps
-
-1. Create a `wireframes/` directory at the root of your repository and commit your photographed sketch as `wireframes/wireframe_sketches.png`.
-2. Copy the formatted Markdown above directly into your project's root `README.md` file.
-3. Verify that all four primary tabs correspond directly to the defined screen archetypes (`Stream`, `Detail`, `Creation`, `Profile`) before final milestone submission.
