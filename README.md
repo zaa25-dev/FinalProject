@@ -91,7 +91,7 @@ Here is the synchronized and fully aligned navigation section, adjusted to maint
 #### Flow Navigation (Screen to Screen)
 
 * **Stream Screen (Drive HUD / Hazard Feed)**
-* $\rightarrow$ Tap "Start / Stop Drive" $\rightarrow$ Toggles active automated telemetry logging & HUD meters
+* $\rightarrow$ Tap "Enable / Disable" $\rightarrow$ Toggles recording
 * $\rightarrow$ Tap "Add Photo" (or auto-triggered on impact) $\rightarrow$ **Creation Screen (Manual Report / Photo Submission)**
 * $\rightarrow$ Tap Hazard Card $\rightarrow$ **Detail Screen (Hazard Inspection)**
 
