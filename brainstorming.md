@@ -34,7 +34,20 @@ App Evaluation
 
 -Scope: The core technical scope focuses on low-latency device orientation polling (Sensor.TYPE_ROTATION_VECTOR or paired Accelerometer/Gyroscope values) to map pitch and roll directly to avatar lateral velocity and jump triggers (deltaY > 1.8G). Run metrics and replay telemetry vectors are synchronized via Firebase Firestore, alongside Google Maps SDK integration for local neighborhood dojo nodes.
 
-3. 
+
+3.
+
+**TiltMaze** is a physics-based arcade marble maze where the player's phone acts as a physical balance board. Instead of using virtual joysticks or swiping across glass, the user tilts the phone in real space to roll a ball through dynamic 3D obstacle courses, avoiding pit traps, hitting speed boosters, and managing momentum. It includes a level builder where players snap a photo of everyday objects on their desk (mugs, pens, books) to generate custom hazard courses, which are then published to a community feed for others to play.
+
+-Category: Mobile Gaming / Physics & Arcade
+
+-Mobile: Uses five device capabilities: inertial Sensors (Accelerometer and Gyroscope) to directly map physical device tilt angles to marble acceleration vectors; Audio for low-latency physical impact sounds (wood clacks, metal rail rolls, trap drops); the Camera to photograph physical tabletop setups as templates for custom levels; Location (GPS) for local community course discovery; and vector Maps to pin and browse player-created maze challenges across campus or neighborhood hubs.
+
+-Story: Most mobile maze and physics games rely on touch-screen joysticks that feel detached and clunky. Using raw hardware tilt turns the entire phone into a physical wooden labyrinth board, making hand stability, micro-adjustments, and physical balance the core mechanics. This can't be matched on a PC or console without specialized motion hardware.
+
+-Market: Casual mobile gamers, puzzle and arcade fans, and players who prefer tactile, single-player physics challenges that can be picked up for quick sessions indoors.
+
+-Scope: The core technical scope uses Android's SensorManager to read device pitch and roll angles (Sensor.TYPE_ROTATION_VECTOR), applying those angles directly as 2D force vectors on a simple physics circle within a custom Android Canvas (vx += roll * dt). Custom course layouts and high-score run times sync to Firebase Firestore, with local leaderboard coordinates rendered on Google Maps.
 
 
 Final Idea (for now): PotholeMapper 
