@@ -78,9 +78,9 @@ Scope: The core technical scope centers on an isolated Z-axis impact detection a
 
 #### Tab Navigation (Tab to Screen)
 
-* **Tab 2 (Drive):** Live Sensor HUD (Real-time G-meter, speed, trip logging state)
-* **Tab 3 (Map):** Roughness Heatmap (Full-screen interactive map with color-coded road quality layers)
-* **Tab 4 (Profile):** User Stats & History (Audited miles, logged impacts, vehicle settings)
+* **Tab 1 (Home):** Enable and Disable recording at any time
+* **Tab 2 (Map):** Roughness Heatmap (Full-screen interactive map with color-coded road quality layers)
+* **Tab 3 (Profile):** User Stats & History (Audited miles, logged impacts, vehicle settings)
 
 #### Flow Navigation (Screen to Screen)
 
