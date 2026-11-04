@@ -126,6 +126,8 @@ Here is the synchronized and fully aligned navigation section, adjusted to maint
 
 ### Hand-Sketched Low-Fidelity Wireframes
 
+Not a very good drawing. It's not one of my skills. 
+
 <img width="2019" height="2611" alt="Scan_20261103_222723" src="https://github.com/user-attachments/assets/4a1c36d5-6cff-443e-9178-eaabf71b50a6" />
 
 
