@@ -17,7 +17,22 @@ App Evaluation
 
 -Scope: The core technical scope centers on an isolated Z-axis impact detection algorithm (sqrt(x^2 + y^2 + z^2) - 1G) cross-referenced with GPS speed gating > 15mph to eliminate false positives from phone handling, followed by database synchronization and Mapbox/Google Maps rendering.
 
-2. f
+2. 
+
+**KineticDash:** Motion-Controlled Endless Runner
+KineticDash is a high-speed, kinetic endless runner where the player’s physical smartphone acts as the direct flight stick and motion controller. Rather than swiping on glass, players tilt, whip, drop, and flick their device in real physical space to dodge obstacles, jump bottomless chasms, and bank through tight neon urban tracks. Every run records dynamic motion telemetry alongside near-miss highlights, which are published to an infinite community stream of leaderboard replays, trick-shot runs, and custom player-forged procedural courses.
+
+App Evaluation
+
+-Category: Mobile Gaming / Arcade & Motion Action
+
+-Mobile: Uniquely mobile experience utilizing five distinct hardware and platform capabilities: high-rate inertial Sensors (Accelerometer and Gyroscope) for real-time device tilt steering and vertical flick detection, Audio for spatial engine audio, collision chimes, and speed-barrier sonic booms, the Camera for post-match facecam victory/loss capture reactions, Location (GPS) for localized regional leaderboard matchmaking, and vector Maps for mapping neighborhood-anchored challenge hubs.
+
+-Story: Traditional mobile runners rely on stale swipe-to-turn gestures that flatten the thrill of high-speed reflexes. KineticDash treats the physical phone as an authentic flight yoke—tilting left and right steers lanes with analog precision, snapping the phone upward jumps obstacles, and ducking the device slides under laser barriers, delivering an authentic physical arcade experience that cannot be replicated on a desktop or console controller without specialized peripherals.
+
+-Market: Casual and competitive mobile gamers, endless runner fans (Subway Surfers, Temple Run), arcade enthusiasts, and players seeking engaging kinetic physical games that do not require outdoor travel.
+
+-Scope: The core technical scope focuses on low-latency device orientation polling (Sensor.TYPE_ROTATION_VECTOR or paired Accelerometer/Gyroscope values) to map pitch and roll directly to avatar lateral velocity and jump triggers (deltaY > 1.8G). Run metrics and replay telemetry vectors are synchronized via Firebase Firestore, alongside Google Maps SDK integration for local neighborhood dojo nodes.
 
 3. 
 
