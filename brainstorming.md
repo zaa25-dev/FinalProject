@@ -6,6 +6,7 @@ Top 3 app ideas:
 **PotholeMapper** is an automated civic telemetry and hazard-detection platform that turns everyday commutes into passive road-quality audits. Mounted on a vehicle dashboard, or sitting in a cup holder, the app continuously samples device motion sensors to detect vertical G-force drops and pothole impacts without requiring manual driver interaction. Detected hazards are automatically geostamped and uploaded to a persistent community road roughness index and an infinite media stream where users can browse, verify, and track severe local road infrastructure failures.
 
 App Evaluation
+
 -Category: Automotive / Civic Tech / Navigation & Utility
 
 -Mobile: Uniquely mobile experience utilizing five distinct hardware and platform capabilities: high-frequency inertial Sensors (Accelerometer and Gyroscope) for impact classification, Location (GPS) for speed gating and coordinates, vector Maps for road roughness visualization, Audio for hands-free hazard proximity warnings, and the Camera for capturing visual proof of road damage.
