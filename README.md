@@ -126,7 +126,8 @@ Here is the synchronized and fully aligned navigation section, adjusted to maint
 
 ### Hand-Sketched Low-Fidelity Wireframes
 
-*(Embed your photographed wireframe sketches below using your GitHub relative repository path)*
+<img width="2019" height="2611" alt="Scan_20261103_222723" src="https://github.com/user-attachments/assets/4a1c36d5-6cff-443e-9178-eaabf71b50a6" />
+
 
 ```markdown
 
