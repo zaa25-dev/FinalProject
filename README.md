@@ -92,7 +92,7 @@ Here is the synchronized and fully aligned navigation section, adjusted to maint
 
 * **Stream Screen (Drive HUD / Hazard Feed)**
 * $\rightarrow$ Tap "Enable / Disable" $\rightarrow$ Toggles recording
-* $\rightarrow$ Tap "Add Photo" (or auto-triggered on impact) $\rightarrow$ **Creation Screen (Manual Report / Photo Submission)**
+* $\rightarrow$ Tap "Add Photo"  $\rightarrow$ **Creation Screen (Manual Report / Photo Submission)**
 * $\rightarrow$ Tap Hazard Card $\rightarrow$ **Detail Screen (Hazard Inspection)**
 
 
