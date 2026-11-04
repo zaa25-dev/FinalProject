@@ -74,36 +74,49 @@ Scope: The core technical scope centers on an isolated Z-axis impact detection a
 
 ---
 
+Here is the synchronized and fully aligned navigation section, adjusted to maintain seamless 1-to-1 consistency with your **User Features** and **Screen Archetypes**:
+
+---
+
 ### 3. Navigation
 
 #### Tab Navigation (Tab to Screen)
 
-* **Tab 1 (Home):** Enable and Disable recording at any time
-* **Tab 2 (Map):** Roughness Heatmap (Full-screen interactive map with color-coded road quality layers)
-* **Tab 3 (Profile):** User Stats & History (Audited miles, logged impacts, vehicle settings)
+* **Tab 1 (Stream):** Drive HUD & Hazard Feed (Toggle live drive logging on/off, monitor real-time G-force deflections, and scroll recent road alerts)
+* **Tab 2 (Map):** Roughness Heatmap (Full-screen interactive vector map with color-coded road quality layers and discrete high-impact hazard pins)
+* **Tab 3 (Profile):** User Stats & Garage (Total audited miles, logged pothole count, community karma score, and vehicle profile)
+
+---
 
 #### Flow Navigation (Screen to Screen)
 
-* **Community Feed (Stream Screen)**
-* $\rightarrow$ Tap Hazard Card $\rightarrow$ **Hazard Detail Screen**
+* **Stream Screen (Drive HUD / Hazard Feed)**
+* $\rightarrow$ Tap "Start / Stop Drive" $\rightarrow$ Toggles active automated telemetry logging & HUD meters
+* $\rightarrow$ Tap "Add Photo" (or auto-triggered on impact) $\rightarrow$ **Creation Screen (Manual Report / Photo Submission)**
+* $\rightarrow$ Tap Hazard Card $\rightarrow$ **Detail Screen (Hazard Inspection)**
 
 
-* **Hazard Detail Screen**
-* $\rightarrow$ Tap Back Button $\rightarrow$ **Community Feed (Stream Screen)**
-* $\rightarrow$ Tap Location Pin $\rightarrow$ **Roughness Heatmap (Map Screen)** centered on coordinates
+* **Detail Screen (Hazard Inspection)**
+* $\rightarrow$ Tap Back Button $\rightarrow$ **Stream Screen (Drive HUD / Hazard Feed)**
+* $\rightarrow$ Tap Location Pin $\rightarrow$ **Map Screen (Roughness & Hazard Heatmap)** centered on coordinates
 
 
-* **Live Sensor HUD (Stream Screen)**
-* $\rightarrow$ Tap "Add Photo" / Auto-Trigger $\rightarrow$ **Creation Screen (Camera / Report Confirmation)**
-* $\rightarrow$ Tap "Stop Drive" $\rightarrow$ **Trip Summary Modal / Screen**
+* **Creation Screen (Manual Report / Photo Submission)**
+* $\rightarrow$ Tap "Submit / Confirm" $\rightarrow$ **Stream Screen (Drive HUD / Hazard Feed)** with new hazard posted
+* $\rightarrow$ Tap "Cancel" $\rightarrow$ Discards draft and returns to **Stream Screen (Drive HUD / Hazard Feed)**
 
 
-* **Roughness Heatmap (Map Screen)**
-* $\rightarrow$ Tap Map Marker $\rightarrow$ **Hazard Detail Screen**
+* **Map Screen (Roughness & Hazard Heatmap)**
+* $\rightarrow$ Tap Map Marker / Heatmap Cluster $\rightarrow$ **Detail Screen (Hazard Inspection)**
 
 
-* **Profile Screen**
-* $\rightarrow$ Tap "My Reports" $\rightarrow$ Filtered **Community Feed (Stream Screen)**
+* **Profile Screen (User Stats & Gear)**
+* $\rightarrow$ Tap "My Reports" $\rightarrow$ **Stream Screen (Drive HUD / Hazard Feed)** filtered by user submissions
+* $\rightarrow$ Tap "Vehicle Profile" $\rightarrow$ Vehicle Calibration & Rigidity Settings Dialog
+
+
+
+---
 
 
 
